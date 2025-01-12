@@ -13,8 +13,8 @@ public class BaseService {
 		this.requestSpec = RestAssured.given().baseUri(BASE_URI);
 	}
 
-	public Response postRequest(String payload, String endPoint) {
+	public Response postRequest(Object payload, String endPoint) {
 		return requestSpec.contentType(ContentType.JSON).body(payload).post(BASE_URI + endPoint);
 	}
-
+	
 }
