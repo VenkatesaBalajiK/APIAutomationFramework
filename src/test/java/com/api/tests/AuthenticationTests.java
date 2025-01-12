@@ -13,7 +13,7 @@ public class AuthenticationTests {
 	public void loginRequestTest() {
 		AuthenticationService authenticationService = new AuthenticationService();
 		LoginRequest loginDetails = new LoginRequest("Bala1234", "Bala1234");
-		
+
 		Response response = authenticationService.loginRequest(loginDetails);
 		System.out.println(response.asPrettyString());
 	}
