@@ -1,10 +1,10 @@
 package com.api.request.models;
 
-public class LoginRequest {
+public class LoginRequestModel {
 	String username;
 	String password;
 
-	public LoginRequest(String username, String password) {
+	public LoginRequestModel(String username, String password) {
 		super();
 		this.username = username;
 		this.password = password;
