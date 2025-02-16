@@ -26,7 +26,7 @@ public class AuthenticationTests {
 	@Test(description = "Sign up")
 	public void signup() {
 		AuthenticationService authenticationService = new AuthenticationService();
-		SignupRequestModel SignupDetails = new SignupRequestModel.Builder().username("Bala1234").password("Bala1234")
+		SignupRequestModel SignupDetails = new SignupRequestModel.SignupRequestBuilder().username("Bala1234").password("Bala1234")
 				.email("bala@gmail.com").firstName("Bala").lastName("Kandavel").mobileNumber(1244545645l).buildSignup();
 		authenticationService.signupRequest(SignupDetails);
 	}

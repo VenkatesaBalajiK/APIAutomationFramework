@@ -73,7 +73,7 @@ public class SignupRequestModel {
 				+ firstName + ", lastName=" + lastName + ", mobileNumber=" + mobileNumber + "]";
 	}
 
-	public static class Builder {
+	public static class SignupRequestBuilder {
 		private String username;
 		private String password;
 		private String email;
@@ -81,32 +81,32 @@ public class SignupRequestModel {
 		private String lastName;
 		private long mobileNumber;
 
-		public Builder username(String username) {
+		public SignupRequestBuilder username(String username) {
 			this.username = username;
 			return this;
 		}
 
-		public Builder password(String password) {
+		public SignupRequestBuilder password(String password) {
 			this.password = password;
 			return this;
 		}
 
-		public Builder email(String email) {
+		public SignupRequestBuilder email(String email) {
 			this.email = email;
 			return this;
 		}
 
-		public Builder firstName(String firstName) {
+		public SignupRequestBuilder firstName(String firstName) {
 			this.firstName = firstName;
 			return this;
 		}
 
-		public Builder lastName(String lastName) {
+		public SignupRequestBuilder lastName(String lastName) {
 			this.lastName = lastName;
 			return this;
 		}
 
-		public Builder mobileNumber(long mobileNumber) {
+		public SignupRequestBuilder mobileNumber(long mobileNumber) {
 			this.mobileNumber = mobileNumber;
 			return this;
 		}
