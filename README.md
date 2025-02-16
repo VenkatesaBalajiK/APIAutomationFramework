@@ -50,7 +50,7 @@ APIAutomationFramework
    ```
 3. Run tests using the TestNG suite:
    ```sh
-   mvn test -DsuiteXmlFile=suite.xml
+   mvn test -DsuiteXmlFile=suite
    ```
 
 ## CI/CD Integration
