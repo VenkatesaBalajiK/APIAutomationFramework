@@ -20,7 +20,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-							${suite}.xml
+							${suiteXmlFile}.xml
 						</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
