@@ -32,8 +32,6 @@ APIAutomationFramework
 │   ├── com.api.tests
 │   │   ├── AuthenticationTests.java
 │   │   └── UserManagementTests.java
-│── src/main/resources
-│── src/test/resources
 ```
 
 ## Setup & Execution
